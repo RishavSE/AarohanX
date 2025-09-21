@@ -148,11 +148,64 @@ export const translations: Record<string, Record<string, string>> = {
     'tip_2': '• अपने करियर लक्ष्यों के साथ मेल खाने वाली रुचियां चुनें',
     'tip_3': '• अधिक विकल्पों के लिए रिमोट अवसरों पर विचार करें',
     
-    // Continue with other sections...
+    // Awareness
     'career_guidance': 'करियर मार्गदर्शन और जागरूकता',
     'guidance_desc': 'अपने कौशल में सुधार करें और अपनी इंटर्नशिप यात्रा की तैयारी करें',
+    'workshop_notifications': 'वर्कशॉप सूचनाएं',
+    'workshop_notif_desc': 'आगामी करियर वर्कशॉप और इवेंट्स के बारे में सूचनाएं प्राप्त करें',
+    'career_workshops': 'करियर वर्कशॉप',
+    'workshop_desc': 'करियर योजना, उद्योग अंतर्दृष्टि और कौशल विकास पर इंटरैक्टिव सेशन',
+    'resume_tips': 'रेज़्यूमे निर्माण टिप्स',
+    'resume_desc': 'ऐसे प्रभावशाली रेज़्यूमे बनाने के लिए विशेषज्ञ मार्गदर्शन जो भर्तीकर्ताओं का ध्यान आकर्षित करें',
+    'interview_prep': 'इंटरव्यू तैयारी',
+    'interview_desc': 'मॉक इंटरव्यू, सामान्य प्रश्न और अपने इंटर्नशिप इंटरव्यू में सफल होने की तकनीकें',
+    
+    // Notifications
+    'notifications_title': 'सूचनाएं',
+    'notifications_desc': 'इंटर्नशिप अवसरों और वर्कशॉप अलर्ट के साथ अपडेट रहें',
+    'no_notifications': 'अभी तक कोई सूचनाएं नहीं',
+    'no_notif_desc': 'जब आपके पास नए इंटर्नशिप मैच या वर्कशॉप अपडेट होंगे, तो वे यहाँ दिखाई देंगे।',
+    'go_to_dashboard': 'डैशबोर्ड पर जाएं',
+    
+    // Profile
+    'profile_title': 'प्रोफाइल',
+    'profile_desc': 'अपने खाते और सहेजी गई इंटर्नशिप का प्रबंधन करें',
+    'selected_skills': 'चयनित कौशल',
+    'language_preference': 'भाषा प्राथमिकता',
+    'saved_internships': 'सहेजी गई इंटर्नशिप',
+    'no_saved_internships': 'कोई सहेजी गई इंटर्नशिप नहीं',
+    'no_saved_desc': 'अपनी शॉर्टलिस्ट बनाने के लिए इंटर्नशिप सहेजना शुरू करें',
+    'browse_internships': 'इंटर्नशिप ब्राउज़ करें',
+    
+    // Common
     'apply_now': 'अभी आवेदन करें',
-    'verified': 'सत्यापित'
+    'verified': 'सत्यापित',
+    'learn_more': 'और जानें',
+    'start_guide': 'गाइड शुरू करें',
+    'get_started': 'शुरू करें',
+    'available_now': 'अभी उपलब्ध',
+    'book_session': 'सेशन बुक करें',
+    'join_now': 'अभी जुड़ें',
+    'browse': 'ब्राउज़ करें',
+    'read': 'पढ़ें',
+    'next': 'अगला',
+    'monthly': 'मासिक',
+    
+    // Footer
+    'footer_desc': 'AI-संचालित इंटर्नशिप सिफारिशों के साथ भारतीय छात्रों को सशक्त बनाना। डिजिटल इंडिया कार्यक्रम के तहत एक पहल।',
+    'quick_links': 'त्वरित लिंक',
+    'about_us': 'हमारे बारे में',
+    'contact': 'संपर्क',
+    'privacy_policy': 'गोपनीयता नीति',
+    'terms_service': 'सेवा की शर्तें',
+    'help_center': 'सहायता केंद्र',
+    'government_links': 'सरकारी लिंक',
+    'ministry_it': 'IT मंत्रालय',
+    'digital_india': 'डिजिटल इंडिया',
+    'skill_india': 'स्किल इंडिया',
+    'aicte': 'AICTE',
+    'india_gov': 'India.gov.in',
+    'copyright': '© 2024 भारत सरकार। सभी अधिकार सुरक्षित। | स्मार्ट इंडिया हैकाथॉन 2025 के तहत विकसित'
   },
   bn: {
     'gov_of_india': 'ভারত সরকার',
