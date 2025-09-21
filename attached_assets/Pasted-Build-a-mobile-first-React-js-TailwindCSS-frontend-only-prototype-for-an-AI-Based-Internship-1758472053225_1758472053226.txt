@@ -1,0 +1,67 @@
+Build a **mobile-first React.js + TailwindCSS frontend-only prototype** for an **AI-Based Internship Recommendation Engine**, designed like official Indian government internship portals (like https://pminternship.mca.gov.in/). No backend/server — use static JSON for mock data. The prototype must include **all main pages, components, and multilingual support**.  
+
+**Requirements:**  
+
+1. **Landing Page**
+   - Header banner with **Indian flag (left)**, **Ministry/official logos (right)**, and tagline: "An Initiative under Govt. of India / SIH 2025"
+   - Hero section:  
+     - Title: "Right Internship. Right Student. Right Time."  
+     - Description: "Discover AI-powered internship recommendations tailored just for you."  
+     - CTA button: "Find My Internship" → scrolls to Dashboard  
+     - Optional Modi-style banner illustration / India symbol  
+   - Trusted section: badges/icons for Verified Internships, Ministry logos  
+   - Footer: Indian flag, ministry logos, links (About | Contact | Privacy Policy)  
+
+2. **Student Dashboard**
+   - Input form with: Skills (tags), Interests (tags), Preferred Location (text + Remote option)  
+   - Button: "Get Recommendations"  
+   - Recommendation cards (3–5 from mock JSON): Internship Title, Company, Location, Duration, Verified label, Apply Now button  
+   - Empty state: friendly illustration with tips  
+
+3. **Awareness & Guidance Section**
+   - Cards for Career Workshops, Resume Tips, Interview Prep  
+   - Notification toggle: dummy notifications for workshops  
+   - Multilingual placeholder: English + Hindi + Bengali + Telugu + Marathi + Tamil + Urdu + Gujarati + Kannada + Malayalam + Odia + Punjabi + Assamese  
+
+4. **Profile Page**
+   - Saved internships displayed in cards/grid  
+   - Option to change language preference  
+   - Account info & settings  
+
+5. **Notifications Page**
+   - List of dummy notifications (internship updates, workshop alerts)  
+   - Empty state if no notifications  
+
+6. **Navbar**
+   - Mobile: bottom nav with icons + labels: Home | Dashboard | Notifications | Profile  
+   - Desktop: top nav with links + profile avatar  
+   - Highlight active page  
+
+7. **Footer**
+   - Indian flag + ministry logos  
+   - Links: About | Contact | Privacy Policy  
+   - Subtle gray/off-white background  
+
+8. **Design & Style**
+   - TailwindCSS  
+   - Clean, modern, official-govt feel  
+   - Mobile-first, responsive  
+   - Colors: white/off-white, red accents (#DC2626), subtle shadows  
+   - Rounded buttons/cards, subtle hover animations  
+
+9. **State & Interactions**
+   - Save internships to local state / localStorage  
+   - Language toggle updates UI text in all pages  
+   - Get Recommendations filters mock JSON by skills/interests  
+
+10. **Mock Data**
+    - `mock/internships.js` — 10–15 realistic internships  
+    - `mock/notifications.js` — dummy notifications  
+    - `mock/locales.js` — translations for all 13 languages (en, hi, bn, te, mr, ta, ur, gu, kn, ml, or, pa, as)  
+
+**Deliverables**
+- React components: LandingPage, Dashboard, InternshipCard, Profile, AwarenessSection, NotificationsPage, Navbar, Footer  
+- Fully responsive, frontend-only prototype  
+- Aligned visually and structurally with official government internship portals  
+- Ready to run in Replit with TailwindCSS configured  
+- Placeholder images for logos, Modi banner, Indian flags  
