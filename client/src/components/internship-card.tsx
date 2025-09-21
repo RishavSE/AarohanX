@@ -17,17 +17,35 @@ export function InternshipCard({ internship, showRecommendation = false }: Inter
   const [savedInternships, setSavedInternships] = useLocalStorage<number[]>('savedInternships', []);
   const [isAnimating, setIsAnimating] = useState(false);
   
-  const isSaved = savedInternships.includes(internship.id);
+  // Always check localStorage for the most current state
+  const getCurrentSavedState = () => {
+    const currentSaved = JSON.parse(localStorage.getItem('savedInternships') || '[]');
+    return currentSaved.includes(internship.id);
+  };
+  
+  const isSaved = getCurrentSavedState();
 
   const toggleSave = () => {
     setIsAnimating(true);
     setTimeout(() => setIsAnimating(false), 200);
     
-    if (isSaved) {
-      setSavedInternships(savedInternships.filter(id => id !== internship.id));
+    // Get the current state from localStorage to ensure we have the latest data
+    const currentSaved = JSON.parse(localStorage.getItem('savedInternships') || '[]');
+    const isCurrentlySaved = currentSaved.includes(internship.id);
+    
+    let newSavedInternships;
+    if (isCurrentlySaved) {
+      newSavedInternships = currentSaved.filter((id: number) => id !== internship.id);
     } else {
-      setSavedInternships([...savedInternships, internship.id]);
+      newSavedInternships = [...currentSaved, internship.id];
     }
+    
+    // Update both localStorage and local state
+    localStorage.setItem('savedInternships', JSON.stringify(newSavedInternships));
+    setSavedInternships(newSavedInternships);
+    
+    // Debug logging
+    console.log(`Toggled save for internship ${internship.id}. New saved list:`, newSavedInternships);
   };
 
   return (
