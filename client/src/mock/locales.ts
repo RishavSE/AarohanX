@@ -1,0 +1,272 @@
+export const translations: Record<string, Record<string, string>> = {
+  en: {
+    // Header & Navigation
+    'gov_of_india': 'Government of India',
+    'ministry_name': 'Ministry of Electronics & Information Technology',
+    'initiative_tagline': 'An Initiative under Govt. of India / SIH 2025',
+    'home': 'Home',
+    'dashboard': 'Dashboard',
+    'guidance': 'Guidance',
+    'notifications': 'Notifications',
+    'profile': 'Profile',
+    'alerts': 'Alerts',
+    
+    // Landing Page
+    'hero_title_1': 'Right Internship.',
+    'hero_title_2': 'Right Student.',
+    'hero_title_3': 'Right Time.',
+    'hero_description': 'Discover AI-powered internship recommendations tailored just for you. Connect with verified opportunities across India.',
+    'find_internship': 'Find My Internship',
+    'trusted_nationwide': 'Trusted by Students Nationwide',
+    'verified_internships': 'Verified Internships',
+    'verified_desc': 'All opportunities verified by government agencies',
+    'ai_matching': 'AI-Powered Matching',
+    'ai_desc': 'Smart recommendations based on your skills and interests',
+    'student_count': '50,000+ Students',
+    'student_desc': 'Join thousands of successful interns across India',
+    
+    // Dashboard
+    'student_dashboard': 'Student Dashboard',
+    'dashboard_desc': 'Find personalized internship recommendations based on your profile',
+    'tell_about_yourself': 'Tell us about yourself',
+    'skills_label': 'Skills (Select your expertise)',
+    'interests_label': 'Interests',
+    'location_label': 'Preferred Location',
+    'location_placeholder': 'Enter city or state (e.g., Mumbai, Delhi)',
+    'remote_option': 'Open to remote internships',
+    'get_recommendations': 'Get AI Recommendations',
+    'recommended_for_you': 'Recommended for You',
+    'ai_matched': 'AI Matched',
+    'ready_to_find': 'Ready to Find Your Perfect Internship?',
+    'fill_profile': 'Fill in your skills and interests above to get personalized AI-powered recommendations tailored just for you.',
+    'pro_tips': 'Pro Tips:',
+    'tip_1': '• Select 3-5 relevant skills for better matching',
+    'tip_2': '• Choose interests that align with your career goals',
+    'tip_3': '• Consider remote opportunities for more options',
+    
+    // Awareness
+    'career_guidance': 'Career Guidance & Awareness',
+    'guidance_desc': 'Enhance your skills and prepare for your internship journey',
+    'workshop_notifications': 'Workshop Notifications',
+    'workshop_notif_desc': 'Get notified about upcoming career workshops and events',
+    'career_workshops': 'Career Workshops',
+    'workshop_desc': 'Interactive sessions on career planning, industry insights, and skill development',
+    'resume_tips': 'Resume Building Tips',
+    'resume_desc': 'Expert guidance on crafting compelling resumes that get noticed by recruiters',
+    'interview_prep': 'Interview Preparation',
+    'interview_desc': 'Mock interviews, common questions, and techniques to ace your internship interviews',
+    
+    // Notifications
+    'notifications_title': 'Notifications',
+    'notifications_desc': 'Stay updated with internship opportunities and workshop alerts',
+    'no_notifications': 'No Notifications Yet',
+    'no_notif_desc': 'When you have new internship matches or workshop updates, they\'ll appear here.',
+    'go_to_dashboard': 'Go to Dashboard',
+    
+    // Profile
+    'profile_title': 'Profile',
+    'profile_desc': 'Manage your account and saved internships',
+    'selected_skills': 'Selected Skills',
+    'language_preference': 'Language Preference',
+    'saved_internships': 'Saved Internships',
+    'no_saved_internships': 'No Saved Internships',
+    'no_saved_desc': 'Start saving internships to build your shortlist',
+    'browse_internships': 'Browse Internships',
+    
+    // Common
+    'apply_now': 'Apply Now',
+    'verified': 'Verified',
+    'learn_more': 'Learn More',
+    'start_guide': 'Start Guide',
+    'get_started': 'Get Started',
+    'available_now': 'Available Now',
+    'book_session': 'Book Session',
+    'join_now': 'Join Now',
+    'browse': 'Browse',
+    'read': 'Read',
+    'next': 'Next',
+    'monthly': 'Monthly',
+    
+    // Footer
+    'footer_desc': 'Empowering Indian students with AI-driven internship recommendations. An initiative under the Digital India program.',
+    'quick_links': 'Quick Links',
+    'about_us': 'About Us',
+    'contact': 'Contact',
+    'privacy_policy': 'Privacy Policy',
+    'terms_service': 'Terms of Service',
+    'help_center': 'Help Center',
+    'government_links': 'Government Links',
+    'ministry_it': 'Ministry of IT',
+    'digital_india': 'Digital India',
+    'skill_india': 'Skill India',
+    'aicte': 'AICTE',
+    'india_gov': 'India.gov.in',
+    'copyright': '© 2024 Government of India. All rights reserved. | Developed under Smart India Hackathon 2025'
+  },
+  hi: {
+    // Header & Navigation
+    'gov_of_india': 'भारत सरकार',
+    'ministry_name': 'इलेक्ट्रॉनिक्स और सूचना प्रौद्योगिकी मंत्रालय',
+    'initiative_tagline': 'भारत सरकार / SIH 2025 के तहत एक पहल',
+    'home': 'होम',
+    'dashboard': 'डैशबोर्ड',
+    'guidance': 'मार्गदर्शन',
+    'notifications': 'सूचनाएं',
+    'profile': 'प्रोफाइल',
+    'alerts': 'अलर्ट',
+    
+    // Landing Page
+    'hero_title_1': 'सही इंटर्नशिप।',
+    'hero_title_2': 'सही छात्र।',
+    'hero_title_3': 'सही समय।',
+    'hero_description': 'आपके लिए विशेष रूप से तैयार की गई AI-संचालित इंटर्नशिप सिफारिशों की खोज करें। भारत भर में सत्यापित अवसरों से जुड़ें।',
+    'find_internship': 'मेरी इंटर्नशिप खोजें',
+    'trusted_nationwide': 'देशभर के छात्रों द्वारा भरोसेमंद',
+    'verified_internships': 'सत्यापित इंटर्नशिप',
+    'verified_desc': 'सभी अवसर सरकारी एजेंसियों द्वारा सत्यापित',
+    'ai_matching': 'AI-संचालित मैचिंग',
+    'ai_desc': 'आपके कौशल और रुचियों के आधार पर स्मार्ट सिफारिशें',
+    'student_count': '50,000+ छात्र',
+    'student_desc': 'भारत भर के हजारों सफल इंटर्न में शामिल हों',
+    
+    // Dashboard
+    'student_dashboard': 'छात्र डैशबोर्ड',
+    'dashboard_desc': 'अपनी प्रोफाइल के आधार पर व्यक्तिगत इंटर्नशिप सिफारिशें पाएं',
+    'tell_about_yourself': 'अपने बारे में बताएं',
+    'skills_label': 'कौशल (अपनी विशेषज्ञता चुनें)',
+    'interests_label': 'रुचियां',
+    'location_label': 'पसंदीदा स्थान',
+    'location_placeholder': 'शहर या राज्य दर्ज करें (जैसे मुंबई, दिल्ली)',
+    'remote_option': 'रिमोट इंटर्नशिप के लिए खुले',
+    'get_recommendations': 'AI सिफारिशें प्राप्त करें',
+    'recommended_for_you': 'आपके लिए सुझाव',
+    'ai_matched': 'AI मैच',
+    'ready_to_find': 'अपनी परफेक्ट इंटर्नशिप खोजने के लिए तैयार हैं?',
+    'fill_profile': 'आपके लिए विशेष रूप से तैयार की गई व्यक्तिगत AI-संचालित सिफारिशें प्राप्त करने के लिए ऊपर अपने कौशल और रुचियां भरें।',
+    'pro_tips': 'प्रो टिप्स:',
+    'tip_1': '• बेहतर मैचिंग के लिए 3-5 प्रासंगिक कौशल चुनें',
+    'tip_2': '• अपने करियर लक्ष्यों के साथ मेल खाने वाली रुचियां चुनें',
+    'tip_3': '• अधिक विकल्पों के लिए रिमोट अवसरों पर विचार करें',
+    
+    // Continue with other sections...
+    'career_guidance': 'करियर मार्गदर्शन और जागरूकता',
+    'guidance_desc': 'अपने कौशल में सुधार करें और अपनी इंटर्नशिप यात्रा की तैयारी करें',
+    'apply_now': 'अभी आवेदन करें',
+    'verified': 'सत्यापित'
+  },
+  bn: {
+    'gov_of_india': 'ভারত সরকার',
+    'home': 'হোম',
+    'dashboard': 'ড্যাশবোর্ড',
+    'notifications': 'বিজ্ঞপ্তি',
+    'profile': 'প্রোফাইল',
+    'apply_now': 'এখনই আবেদন করুন',
+    'verified': 'যাচাইকৃত'
+  },
+  te: {
+    'gov_of_india': 'భారత ప్రభుత్వం',
+    'home': 'హోమ్',
+    'dashboard': 'డ్యాష్‌బోర్డ్',
+    'notifications': 'నోటిఫికేషన్‌లు',
+    'profile': 'ప్రొఫైల్',
+    'apply_now': 'ఇప్పుడే దరఖాస్తు చేసుకోండి',
+    'verified': 'ధృవీకరించబడిన'
+  },
+  mr: {
+    'gov_of_india': 'भारत सरकार',
+    'home': 'होम',
+    'dashboard': 'डॅशबोर्ड',
+    'notifications': 'सूचना',
+    'profile': 'प्रोफाइल',
+    'apply_now': 'आता अर्ज करा',
+    'verified': 'सत्यापित'
+  },
+  ta: {
+    'gov_of_india': 'இந்திய அரசு',
+    'home': 'முகப்பு',
+    'dashboard': 'டாஷ்போர்டு',
+    'notifications': 'அறிவிப்புகள்',
+    'profile': 'சுயவிவரம்',
+    'apply_now': 'இப்போது விண்ணப்பிக்கவும்',
+    'verified': 'சரிபார்க்கப்பட்டது'
+  },
+  ur: {
+    'gov_of_india': 'حکومت ہند',
+    'home': 'ہوم',
+    'dashboard': 'ڈیش بورڈ',
+    'notifications': 'اطلاعات',
+    'profile': 'پروفائل',
+    'apply_now': 'ابھی اپلائی کریں',
+    'verified': 'تصدیق شدہ'
+  },
+  gu: {
+    'gov_of_india': 'ભારત સરકાર',
+    'home': 'હોમ',
+    'dashboard': 'ડેશબોર્ડ',
+    'notifications': 'સૂચનાઓ',
+    'profile': 'પ્રોફાઇલ',
+    'apply_now': 'હવે અરજી કરો',
+    'verified': 'ચકાસાયેલ'
+  },
+  kn: {
+    'gov_of_india': 'ಭಾರತ ಸರ್ಕಾರ',
+    'home': 'ಮುಖಪುಟ',
+    'dashboard': 'ಡ್ಯಾಶ್‌ಬೋರ್ಡ್',
+    'notifications': 'ಅಧಿಸೂಚನೆಗಳು',
+    'profile': 'ಪ್ರೊಫೈಲ್',
+    'apply_now': 'ಈಗ ಅರ್ಜಿ ಸಲ್ಲಿಸಿ',
+    'verified': 'ಪರಿಶೀಲಿಸಲಾಗಿದೆ'
+  },
+  ml: {
+    'gov_of_india': 'ഇന്ത്യാ ഗവൺമെന്റ്',
+    'home': 'ഹോം',
+    'dashboard': 'ഡാഷ്ബോർഡ്',
+    'notifications': 'അറിയിപ്പുകൾ',
+    'profile': 'പ്രൊഫൈൽ',
+    'apply_now': 'ഇപ്പോൾ അപേക്ഷിക്കുക',
+    'verified': 'സാക്ഷ്യപ്പെടുത്തിയത്'
+  },
+  or: {
+    'gov_of_india': 'ଭାରତ ସରକାର',
+    'home': 'ହୋମ',
+    'dashboard': 'ଡ୍ୟାସବୋର୍ଡ',
+    'notifications': 'ବିଜ୍ଞପ୍ତି',
+    'profile': 'ପ୍ରୋଫାଇଲ',
+    'apply_now': 'ବର୍ତ୍ତମାନ ଆବେଦନ କରନ୍ତୁ',
+    'verified': 'ଯାଞ୍ଚ ହୋଇଛି'
+  },
+  pa: {
+    'gov_of_india': 'ਭਾਰਤ ਸਰਕਾਰ',
+    'home': 'ਹੋਮ',
+    'dashboard': 'ਡੈਸ਼ਬੋਰਡ',
+    'notifications': 'ਨੋਟੀਫਿਕੇਸ਼ਨ',
+    'profile': 'ਪ੍ਰੋਫਾਈਲ',
+    'apply_now': 'ਹੁਣੇ ਅਪਲਾਈ ਕਰੋ',
+    'verified': 'ਤਸਦੀਕ ਸ਼ੁਦਾ'
+  },
+  as: {
+    'gov_of_india': 'ভাৰত চৰকাৰ',
+    'home': 'হোম',
+    'dashboard': 'ডেছবৰ্ড',
+    'notifications': 'জাননী',
+    'profile': 'প্ৰফাইল',
+    'apply_now': 'এতিয়াই আবেদন কৰক',
+    'verified': 'সত্যাপিত'
+  }
+};
+
+export const languageOptions = [
+  { code: 'en', name: 'English' },
+  { code: 'hi', name: 'हिन्दी (Hindi)' },
+  { code: 'bn', name: 'বাংলা (Bengali)' },
+  { code: 'te', name: 'తెలుగు (Telugu)' },
+  { code: 'mr', name: 'मराठी (Marathi)' },
+  { code: 'ta', name: 'தமிழ் (Tamil)' },
+  { code: 'ur', name: 'اردو (Urdu)' },
+  { code: 'gu', name: 'ગુજરાતી (Gujarati)' },
+  { code: 'kn', name: 'ಕನ್ನಡ (Kannada)' },
+  { code: 'ml', name: 'മലയാളം (Malayalam)' },
+  { code: 'or', name: 'ଓଡ଼ିଆ (Odia)' },
+  { code: 'pa', name: 'ਪੰਜਾਬੀ (Punjabi)' },
+  { code: 'as', name: 'অসমীয়া (Assamese)' }
+];
