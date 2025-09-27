@@ -101,7 +101,7 @@ export const translations: Record<string, Record<string, string>> = {
     'skill_india': 'Skill India',
     'aicte': 'AICTE',
     'india_gov': 'India.gov.in',
-    'copyright': '© 2024 Government of India. All rights reserved. | Developed under Smart India Hackathon 2025'
+    'copyright': '© 2025 Government of India. All rights reserved. | Developed under Smart India Hackathon 2025'
   },
   hi: {
     // Header & Navigation

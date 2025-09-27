@@ -9,7 +9,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-6 h-4 bg-gradient-to-b from-orange-500 via-white to-green-600 border border-gray-300 rounded-sm" data-testid="footer-flag" />
+              <img
+  src="/src/components/layout/flag.png"   // leading slash points to public folder
+  alt="Indian Flag"
+  className="w-8 h-5 object-cover rounded-sm shadow-sm border border-gray-300"
+  data-testid="footer-flag"
+/>
+
               <h3 className="font-bold text-lg">AI Internship Portal</h3>
             </div>
             <p className="text-muted-foreground mb-4" data-testid="footer-description">
