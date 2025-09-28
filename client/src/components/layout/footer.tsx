@@ -1,4 +1,5 @@
 import { useLanguage } from "@/hooks/use-language";
+import image from "@/assets/flag.png"
 
 export function Footer() {
   const { t } = useLanguage();
@@ -13,7 +14,7 @@ export function Footer() {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <img
-                src="/src/components/layout/flag.png"
+                src="/flag.png"
                 alt="Indian Flag"
                 className="w-8 h-5 object-cover rounded-sm shadow-sm border border-gray-300"
                 data-testid="footer-flag"

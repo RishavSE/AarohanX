@@ -11,17 +11,17 @@ export function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center space-x-3">
           <img
-            src="src/components/layout/internship.png"
+            src="/internship.png"
             alt="Ministry Logo"
             className="w-26 h-14 object-fill"
             data-testid="ministry-logo"
           />
           {/* Indian Flag */}
-          <div className="w-8 h-6 relative" data-testid="indian-flag">
+          <div className="w-12 h-6 relative" data-testid="indian-flag">
             <img
-              src="/src/components/layout/flag.png"
+              src="/flag.png"
               alt="Indian Flag"
-              className="w-18 h-19 object-cover rounded-sm shadow-sm border border-gray-300"
+              className="object-cover shadow-sm border border-gray-300"
             />
           </div>
           <span className="text-sm font-medium" data-testid="text-gov-india">
@@ -32,7 +32,7 @@ export function Header() {
         <div className="flex items-center space-x-2">
           {/* Ministry logos placeholder */}
           <img
-            src="src/components/layout/MAC.jpg"
+            src="/MAC.jpg"
             alt="Ministry Logo"
             className="w-26 h-14 object-fill"
           />
