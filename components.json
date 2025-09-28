@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "$schema": "https://ui.shadcn.com/schema.json",
   "style": "new-york",
   "rsc": true,
@@ -20,3 +21,24 @@
   },
   "registries": {}
 }
+=======
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "style": "new-york",
+    "rsc": false,
+    "tsx": true,
+    "tailwind": {
+      "config": "tailwind.config.ts",
+      "css": "app/src/index.css",
+      "baseColor": "neutral",
+      "cssVariables": true,
+      "prefix": ""
+    },
+    "aliases": {
+      "components": "@/components",
+      "utils": "@/lib/utils",
+      "ui": "@/components/ui",
+      "lib": "@/lib",
+      "hooks": "@/hooks"
+    }
+}
+>>>>>>> 4ebb608de7f08ac5ce8f025c17bc2bea50c355a7
