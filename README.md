@@ -1,4 +1,4 @@
-# InternConnect
+## InternConnect
 
 InternConnect is a web application designed to connect interns with potential internship opportunities. It provides a user-friendly interface to browse, search, and apply for internships.
 
